@@ -8,8 +8,8 @@ let MyArray = [];
 
 
 // Function that tells the button what to do
-FirstBBtn.addEventListener("click",myFirstFunction,true);
-SecondBBtn.addEventListener("click",secondChangeWord,true)
+FirstBBtn.addEventListener("click",myFirstFunction);
+SecondBBtn.addEventListener("click",secondChangeWord)
 SecondBBtn.style.display = "none";
 
 
@@ -20,8 +20,8 @@ for(let MyIndex = 0; MyIndex < 3; MyIndex++ ){
 MyArray.push(prompt('Please enter a word'));
 }
 
+//displaying  
 {
-//displaying
 let out = "<ul>"
 for(let MyIndex = 0; MyIndex <3; MyIndex ++){
 out = out + "<li>" + MyArray[MyIndex] + "</li>"
