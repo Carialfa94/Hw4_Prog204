@@ -8,8 +8,8 @@ let MyArray = [];
 
 
 // Function that tells the button what to do
-FirstBBtn.addEventListener("click",myFirstFunction);
-SecondBBtn.addEventListener("click",secondChangeWord)
+FirstBBtn.addEventListener("click",myFirstFunction,false);
+SecondBBtn.addEventListener("click",secondChangeWord,false)
 SecondBBtn.style.display = "none";
 
 
